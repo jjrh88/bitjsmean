@@ -1,0 +1,23 @@
+
+
+body{
+    background-color: black;
+    background-image: url("imagenes/programador.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.titulo2{
+    color:blue;
+}
+
+#titulo3{
+    color:red;
+}
+
+.titulos{
+    font-size: 40px;
+    color:chocolate;
+}
+
+

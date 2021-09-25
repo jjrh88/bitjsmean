@@ -1,0 +1,77 @@
+#micuadro{
+    width: 100%;
+    height: 50px;
+    background: dodgerblue;
+    border-radius: 11px;
+    border: solid;
+    color: white;
+    text-align: center;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.cuadroizquierda{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border:solid;
+    float: left;
+}
+
+.cuadroderecho{
+    width: 196px;
+    height: 200px;
+    background-color: green;
+    border:solid;
+    float: right;
+}
+
+#cuadrocentral{
+    width: 67%;
+    height: 200px;
+    background: rgb(54 54 211);
+    float: left;
+    border: solid;
+    margin-left: 3px;
+}
+
+#cuadrofinal{
+    height: 200px;
+    background: yellow;
+    margin-top: 230px;
+}
+
+.miImagen{
+    width: 400px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: block;
+}
+
+.texto
+{
+    color: red;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.mitabla{
+    background: red;
+    border: solid 3px green;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+}
+
+.delete{
+    width: 30px;
+}
+
+.btn
+{
+    background-color: blue;
+}
