@@ -1,0 +1,14 @@
+1. Crear un documento html index.htl, el cual tendra 2 divs
+    -> 1. ancho 300px altura 400px fondo de color verde border solido border-radius de 10px posicionado 
+    a la izquierda
+    -> 2. ancho 500px altura 800px fondo de color amrilo border solido 14px border-radius de 30px posicionado 
+    a la derecha
+
+2. Crear un formulario que contengan los siguientes campos
+    -> 1. Campo de texto con una marca de agua que diga ingrese su nombre
+    -> 2. Campo de texto que se de tipo email 
+    -> 3. Campo de tipo select que muestre los tipo de documentos que se manejan en colombia :CC/TI/NIT..
+
+3. Crear una tabla en la que muestre información acerca de mi 
+    Columnas nombre, edad, sexo, direccion
+     javier X, X , X
