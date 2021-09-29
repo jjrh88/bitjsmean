@@ -1,0 +1,23 @@
+.logo{
+    width: 40px;  
+}
+
+.icon-menu{
+    width: 20px;
+}
+
+.globe {
+    float: right;
+    background: #808080a1;
+    height: 31px;
+    width: 31px;
+    border-radius: 31px;
+    text-align: center;
+    border: solid 1px #ffffff;
+}
+
+.icon-profile{
+    margin-right: 16px;
+    width: 32px;
+    border-radius: 16px;
+}
