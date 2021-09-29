@@ -1,0 +1,27 @@
+.text{
+  color: red;
+  font-size: 200px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text2{
+    color:green !important;
+}
+
+.textoajustado{
+    color:red;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.exampleMD{
+    background-color: red;
+    width: 300px;
+   }
+   
+@media (max-width: 600px) {
+    .exampleMD {
+        background-color: green;
+        width: 20px;
+    }
+}

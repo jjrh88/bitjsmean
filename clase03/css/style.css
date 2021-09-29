@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    width: 500px;
+    height: auto;
+    display: block;
+    left: 0;
+    right: 0;
+    background-color: red;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 9px;
+}
+
+label{
+    color: white;
+    font-family: cursive;
+}
+
+input{
+    border-radius: 4px;
+    font-size: 22px;
+    border-color: #e1e1ed;
+}
+
+.tab{
+  padding: 3px;
+}
+
+.btn{
+    border-radius: 5px;
+}

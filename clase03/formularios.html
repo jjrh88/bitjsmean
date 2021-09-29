@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="login">
+
+
+        <form>
+
+            <fieldset>
+                <legend>Información Personal</legend>
+
+                <div class="tab">
+                    <label>Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Input name">
+                </div>
+
+                <div class="tab">
+                    <label>Email</label>
+                    <input type="emil" name="email" id="email">
+                </div>
+
+                <div class="tab">
+                    <label>Sexo</label>
+                    <input type="checkbox" value="F">
+                    <input type="checkbox" value="M">
+                </div>
+
+
+                <div class="tab">
+                    <label>Tipo de documento</label>
+                    <select name="tidoc" id="tpdoc">
+                        <option value="cc">CC</option>
+                        <option value="nit">NIT</option>
+                    </select>
+                </div>
+
+                <div class="tab">
+                    <textarea name="acerademi" id="acerademi" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="tab">
+                    <input type="color">
+                </div>
+                <div class="tab">
+                    <input type="button" class="btn" value="Aceptar">
+                </div>
+
+                <div class="tab">
+                    <label>Choose a browser from this list:
+                        <input list="browsers" name="myBrowser" /></label>
+                        <datalist id="browsers">
+                          <option value="Chrome">
+                          <option value="Firefox">
+                          <option value="Internet Explorer">
+                          <option value="Opera">
+                          <option value="Safari">
+                          <option value="Microsoft Edge">
+                        </datalist>
+                        
+                </div>
+
+            
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>

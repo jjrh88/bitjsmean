@@ -1,0 +1,73 @@
+.menu{
+}
+
+.pointer{
+    cursor: pointer;
+ }
+ul{
+  list-style: none;
+  padding: 4px;
+  margin: 2px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+  li {
+     float: left;
+  }
+
+  li a {
+      display: block;
+      text-align: center;
+      padding: 10px;
+      text-decoration: none;
+  }
+
+  .contacto
+  {
+    float: left;
+    position: absolute;
+    top: 25%;
+    margin-left: 13px;
+  }
+
+  .center
+  {
+      text-align: center;
+  }
+
+
+  .animation {
+   /* background: orange;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 42px;*/
+
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-delay: 2s;
+  }
+
+  /*@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+*/
+  
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
